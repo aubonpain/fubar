@@ -1,0 +1,16 @@
+<template name="browse">
+    <div class="container">
+        <div class="page-header">
+            <h1>Browse <small>List</small></h1>
+        </div>
+        <div>
+            <table>
+                <td>
+                    {{#each listAll}}
+                        <tr class="row">{{name}}</tr>
+                    {{/each}}
+                </td>
+            </table>
+        </div>
+    </div>
+</template>

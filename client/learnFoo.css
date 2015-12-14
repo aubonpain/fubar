@@ -1,0 +1,76 @@
+#mainSearch {
+    background: rgba(211, 211, 211, 0);
+}
+
+#searchForm {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*
+
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:100);
+.change-brand-font {
+    font-family: Georgia, serif !important;
+    font-size: 60px !important;
+    color: #FFCC66 !important;
+}
+
+.change-jumbotron-style {
+    background-color: transparent !important;
+}
+
+.bg-img {
+    background-repeat: repeat-x;
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur(2px);
+    height: 20em;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    background-size: cover;
+    animation: xfade 18s infinite;
+}
+
+img:nth-child(1) {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Code.jpg/1280px-Code.jpg");
+    animation-delay: 0s;
+}
+
+img:nth-child(2) {
+    background-image: url("https://static.pexels.com/photos/3600/man-camera-taking-photo-photographer.jpg");
+    animation-delay: 6s;
+}
+
+img:nth-child(3) {
+    background-image: url("https://static.pexels.com/photos/1221/man-person-sitting-playing.jpg");
+    animation-delay: 12s;
+}
+
+@keyframes xfade {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1
+    }
+    25% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+*/

@@ -1,0 +1,28 @@
+<head>
+    <script>
+        var popAlert = function () {
+            alert("Date: " + new Date());
+        }
+    </script>
+</head>
+
+<template name="searchForm">
+
+    <div class="container" id="searchForm">
+
+        <div class="col-md-10 col-md-offset-1">
+
+            <form class="input-group input-group-lg" id="mainSearch" action="/">
+
+                <input type="text" class="form-control" id="skillToLearn" placeholder="What do you want to learn today?" aria-describedby="sizing-addon1">
+                <submit class="input-group-addon" id="sizing-addon1" onClick="popAlert()">Go!</submit>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+</template>
