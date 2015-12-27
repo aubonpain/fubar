@@ -19,6 +19,7 @@ if (Meteor.isClient) {
     });
 
     Template.teach.rendered = function() {
+        // This allows the typeahead to work
         Meteor.typeahead.inject();
     };
 }
