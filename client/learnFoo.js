@@ -22,4 +22,8 @@ if (Meteor.isClient) {
         // This allows the typeahead to work
         Meteor.typeahead.inject();
     };
+
+    Accounts.ui.config({
+        passwordSignupFields: "USERNAME_ONLY"
+    });
 }
