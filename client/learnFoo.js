@@ -3,10 +3,23 @@ Meteor.subscribe("Courses");
 
 if (Meteor.isClient) {
 
+    // Browse
     Template.browse.helpers ({
-        listAll: function () {
-            console.log(Courses.find().count());
+        listAllCourses: function () {
+            // console.log(Courses.find().toString());
             return Courses.find();
         }
     });
+
+    // Teach
+    Template.teach.helpers({
+        courseList: function() {
+            return Courses.find().fetch().map(function(it){ return it.name; });
+        }
+    });
+
+    Template.teach.rendered = function() {
+        // This allows the typeahead to work
+        Meteor.typeahead.inject();
+    };
 }
