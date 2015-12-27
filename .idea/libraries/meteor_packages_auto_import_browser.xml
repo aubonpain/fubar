@@ -57,7 +57,9 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/react.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/compiler.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/templatetag.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/sergeyt_typeahead/0.11.1_6/web.browser/index.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/codegen.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/sergeyt_typeahead/0.11.1_6/web.browser/typeahead.bundle.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/autoupdate/1.2.4/web.browser/autoupdate_client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/optimizer.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-runtime/0.1.4/web.browser/babel-runtime.js" />
@@ -194,7 +196,9 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/react.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/compiler.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/templatetag.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/sergeyt_typeahead/0.11.1_6/web.browser/index.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/codegen.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/sergeyt_typeahead/0.11.1_6/web.browser/typeahead.bundle.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/autoupdate/1.2.4/web.browser/autoupdate_client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/spacebars-compiler/1.0.7/web.browser/optimizer.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-runtime/0.1.4/web.browser/babel-runtime.js" />
