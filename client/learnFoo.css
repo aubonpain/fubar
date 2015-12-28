@@ -1,8 +1,5 @@
-#mainSearch {
+.mainSearch {
     background: rgba(211, 211, 211, 0);
-}
-
-#searchForm {
     display: table;
     margin: 0 auto;
     width: 100%;
@@ -115,6 +112,7 @@ img:nth-child(3) {
 .tt-suggestion {
     padding: 3px 20px;
     line-height: 24px;
+    font-size: large;
 }
 
 .tt-suggestion.tt-cursor,.tt-suggestion:hover {

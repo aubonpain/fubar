@@ -23,6 +23,18 @@ if (Meteor.isClient) {
         Meteor.typeahead.inject();
     };
 
+    // SearchForm
+    Template.searchForm.helpers({
+        courseList: function() {
+            return Courses.find().fetch().map(function(it){ return it.name; });
+        }
+    });
+
+    Template.searchForm.rendered = function() {
+        // This allows the typeahead to work
+        Meteor.typeahead.inject();
+    };
+
     Accounts.ui.config({
         passwordSignupFields: "USERNAME_ONLY"
     });
